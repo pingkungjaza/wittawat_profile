@@ -1,0 +1,124 @@
+body{
+  background:#252736;
+  color: whitesmoke;
+}
+
+.containerX {
+    top:120px;
+    width: 100%;
+    position: relative;
+    font-family: 'Trebuchet Ms';
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg {
+    background: #000;
+    width: 100%;
+    height: 100px;
+    opacity: 0;
+  }
+  
+  .show {
+    opacity: 1;
+  }
+  
+  .transition {    
+    -webkit-transition: all 1s ease-in;
+      -moz-transition: all 1s ease-in;
+      -o-transition: all 1s ease-in;
+      transition: all 1s ease-in;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  ul {
+    height: 200px;
+    margin: -70px auto 0 auto;
+    width: 500px;
+    padding: 0;
+  }
+  
+  li {
+    float: left; 
+    list-style: none;
+    margin: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  a {
+    text-align: center;
+    font-size: 50px;
+    color: #bdbdbd;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px #949494;
+    
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  a:hover {
+    color: #a6a6a6;
+    text-shadow: 1px 1px 1px #C9C9C9;
+  }
+  
+  .down {
+    top: 150px;
+  }
+  
+  .up {
+    top: 1800px;
+  }
+
+  .card-profile{
+    position: relative;
+    justify-content: center;
+  }
+
+  .img-profile-parent{
+    /* border-radius: 1rem; */
+    margin: 30px;
+    background-repeat: no-repeat;    
+    background-image: url("../images/profile/ping3.png");
+  }
+
+  .img-profile{
+    backdrop-filter: blur(5px) saturate(2);
+    padding: 20px;
+    margin: -20px ;
+  }
+
+  .neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(174, 0, 255),
+      0 0 21px #0fa;
+  }
+
+  .box-paragraph{
+    padding: 30px;
+    border: 1.5px solid #2c56dd;
+    border-radius: 12px;
+    background-color: hsla(0, 0%, 100%, 0.35);
+    box-shadow: inset 0 6px 10px 0 #fff, 0 6px 12px 4px rgb(44 86 221 / 5%);
+  }
+
+  .paragraph{
+    font-size: 1.25rem;
+    max-width: 600px;
+    text-indent: 3rem;
+    margin: 1rem;
+  }
+  
